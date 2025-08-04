@@ -138,6 +138,7 @@ export interface FileDetails {
         deleted?: number
         total?: number
     }
+    visibleName?: string
 }
 
 export interface FileList {
@@ -183,6 +184,23 @@ export interface ChatMessage {
     codeReference?: ReferenceTrackerInformation[]
     fileList?: FileList
     contextList?: FileList
+    quickSettings?: {
+        type: 'select' | 'checkbox' | 'radio'
+        description?: string
+        descriptionLink?: {
+            id: string
+            text: string
+            destination: string
+        }
+        messageId: string
+        tabId: string
+        options: {
+            id: string
+            label: string
+            value: string
+            selected?: boolean | undefined
+        }[]
+    }
 }
 
 /**
@@ -384,6 +402,7 @@ export interface ButtonClickParams {
     tabId: string
     messageId: string
     buttonId: string
+    metadata?: Record<string, string>
 }
 
 export interface ButtonClickResult {

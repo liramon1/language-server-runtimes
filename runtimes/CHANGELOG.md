@@ -1,5 +1,44 @@
 # Changelog
 
+## [0.2.120](https://github.com/aws/language-server-runtimes/compare/language-server-runtimes/v0.2.119...language-server-runtimes/v0.2.120) (2025-08-01)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @aws/language-server-runtimes-types bumped from ^0.1.51 to ^0.1.52
+
+## [0.2.119](https://github.com/aws/language-server-runtimes/compare/language-server-runtimes/v0.2.118...language-server-runtimes/v0.2.119) (2025-08-01)
+
+
+### Bug Fixes
+
+* add open tab params to inline completion protocol  ([#645](https://github.com/aws/language-server-runtimes/issues/645)) ([56c9fe0](https://github.com/aws/language-server-runtimes/commit/56c9fe01cca4aacfc15e3a8116a44b72ad10d43a))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @aws/language-server-runtimes-types bumped from ^0.1.50 to ^0.1.51
+
+## [0.2.118](https://github.com/aws/language-server-runtimes/compare/language-server-runtimes/v0.2.117...language-server-runtimes/v0.2.118) (2025-07-31)
+
+
+### Features
+
+* **types:** introduce new completion API for edits suggestion ([#635](https://github.com/aws/language-server-runtimes/issues/635)) ([26ecf77](https://github.com/aws/language-server-runtimes/commit/26ecf770be41b2fa12b9255b446a498c7c209e49))
+
+## [0.2.117](https://github.com/aws/language-server-runtimes/compare/language-server-runtimes/v0.2.116...language-server-runtimes/v0.2.117) (2025-07-31)
+
+
+### Bug Fixes
+
+* add open tab params to inline completion protocol ([#638](https://github.com/aws/language-server-runtimes/issues/638)) ([fcdf0ac](https://github.com/aws/language-server-runtimes/commit/fcdf0ac24561e32ce079a568b65f9df534e8a140))
+* improve diffs array error msg ([#639](https://github.com/aws/language-server-runtimes/issues/639)) ([10b0371](https://github.com/aws/language-server-runtimes/commit/10b037133608610e2edf2b1c4b752b09f3b74580))
+* replace path.basename with custom browser-safe implementation ([#636](https://github.com/aws/language-server-runtimes/issues/636)) ([a2b8532](https://github.com/aws/language-server-runtimes/commit/a2b8532e5db15615f7aa0349f4cca8835716e85b))
+
 ## [0.2.116](https://github.com/aws/language-server-runtimes/compare/language-server-runtimes/v0.2.115...language-server-runtimes/v0.2.116) (2025-07-24)
 
 
